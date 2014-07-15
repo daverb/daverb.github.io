@@ -1,0 +1,159 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+p {
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+.intro-text {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.full-width-image-1 {
+	background: url(../img/lake.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;	
+	padding: 100px 0;
+	height: 500px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+}
+
+.full-width-image-2 {
+	background: url(../img/watercabin.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	height: 450px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.logo-wrapper {
+	display: inline-block;
+}
+
+.name {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.section {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.section-heading {
+    font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+	margin: 30px 0;
+}
+
+.home-heading {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.75em;
+	margin: 30px 0;
+	color: #000;
+}
+
+.section-lead {
+	margin: 30px 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	color: #333;
+}
+
+.section-paragraph {
+	margin: 30px 0;
+	color: #333;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+}
+
+footer {
+	margin: 50px 0;
+}
+
+@media (max-width: 768px) {
+
+.section-heading {
+	font-size: 4em;
+}
+
+.section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding: 200px 0 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4em;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+}
+
+.full-width-image-1 .intro-text {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 2em;
+}
+
+.full-width-image-1 .intro-text .name {
+    font-size: 2em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color: #FFF;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.centered-text {
+    text-align:center
+}
+
+.align-right {
+    text-align: right
+}
+
+.glyphicon.bigger {font-size: 30px;}
+
+.social {
+   padding-right: 12px;
+}
+
+.container .row .col-lg-12.section .lead.section-lead {
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
