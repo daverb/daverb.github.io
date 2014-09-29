@@ -162,8 +162,11 @@ header .intro-text .name {
     height:10px
 }
 
-.blueiconcolour {
-    color: #2E9AFE;
+.blackiconcolour {
+    color: #000;
 }
 
+.blackiconcolour:hover{
+    color: #979797;
+}
 
