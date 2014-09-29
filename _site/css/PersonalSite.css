@@ -105,7 +105,7 @@ footer {
 }
 
 @media(min-width:768px) {
-    header .container {
+    header {
         padding: 200px 0 100px;
     }
 
@@ -157,3 +157,13 @@ header .intro-text .name {
 	color: #333;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.site-header {
+    height:10px
+}
+
+.blueiconcolour {
+    color: #2E9AFE;
+}
+
+

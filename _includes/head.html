@@ -1,0 +1,25 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{"/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="{{"/css/bootstrap.icon-large.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{"/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100&v1" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS for the 'Full Width Pics' Template -->
+    <link href="{{"/css/PersonalSite.css" | prepend: site.baseurl }}" rel="stylesheet">
+</head>
