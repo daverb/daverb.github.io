@@ -6,7 +6,7 @@ author: david_burson
 categories: jekyll update
 ---
 
-![Pint of Guinness](http://0.0.0.0:4000/img/Guinness.jpg)
+![Pint of Guinness](../img/Guinness.jpg)
 
 
 It might aswel come with a picture of a lovely pint of Guinness.
