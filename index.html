@@ -81,7 +81,7 @@ layout:
     <div class="container">
       <div class="row">
             <div class="col-lg-12 section">
-                <!--h1 class="section-heading">An Interesting Headline Goes Here</h1-->
+                <h1 class="section-heading">Latest Blog Posts:</>
                 <!--p class="lead section-lead">This blog is to display the parts of my life I want to share with the world. These will mainly consist of personal technology projects and various other thoughts and opinions. Hopefully I will have some stories and photos from travels in the near future.</p>
               <!--p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin auctor quam ac tempor. Cras a ante sed libero mollis sodales. Praesent fringilla, neque ut ultrices faucibus, dolor eros ultrices neque, nec bibendum arcu ipsum eget justo. Phasellus vestibulum sagittis purus laoreet varius. Pellentesque malesuada malesuada mattis. Aliquam sed porta nisi, eget suscipit dolor. Nam ipsum sapien, rhoncus eu leo eu, ultricies pellentesque tellus.</p-->
             </div>
@@ -94,7 +94,7 @@ layout:
             {% for post in paginator.posts %}
               <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
               <p class="author">
-                <span class="date">{{ post.date }}</span>
+                <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
               </p>
 
               <div class="content">
